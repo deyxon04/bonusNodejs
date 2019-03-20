@@ -44,11 +44,11 @@ function prematricular(argv, handler) {
             handler(response)
         }
         else {
-            console.log("\n Señor " + argv.nombre + " El curso que esta intentando prematricular no existe\n");
+            const response = ("\n Señor " + argv.nombre + " El curso que esta intentando prematricular no existe\n");
+            handler(response)
         }
 
     } else {
-        console.log("\nListado de cursos");
         const response = { "Estos son los curso disponibles ": cursosEducacionContinua }
         handler(response)
     }
