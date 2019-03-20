@@ -1,0 +1,4 @@
+El estudiante miguel
+Se ha prematriculado en el curso Introduccion a los sistemas de informacion
+Con una duracion de 1 Semestre
+Y un valor de 100000
